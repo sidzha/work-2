@@ -1,0 +1,33 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Plumb", Arial, Helvetica, sans-serif;
+  background: $bg-color-1;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
