@@ -10,7 +10,7 @@ html {
 
 body {
   font-family: "Plumb", Arial, Helvetica, sans-serif;
-  background: $bg-color-1;
+  color: $text-white;
   margin: 0 auto;
 }
 
@@ -23,6 +23,7 @@ ul {
 a {
   text-decoration: none;
   transition: color 0.3s ease-in-out;
+  color: $text-white;
 }
 
 h1,

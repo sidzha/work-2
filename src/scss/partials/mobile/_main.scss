@@ -1,0 +1,53 @@
+main {
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.main__header {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.main__header--sub,
+.main__futures {
+  margin-left: 140px;
+}
+
+.main__header--sub {
+  display: block;
+  font-size: 20px;
+  line-height: 22px;
+  margin-top: 30px;
+}
+
+.main__header--color {
+  color: $text-alt;
+}
+
+.main__futures {
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+}
+
+.futures__item {
+  padding-left: 30px;
+
+  &:nth-child(1) {
+    background: url("../img/icons/feature-1.svg") no-repeat left;
+    margin-bottom: 10px;
+  }
+
+  &:nth-child(2) {
+    background: url("../img/icons/feature-2.svg") no-repeat left;
+    margin-bottom: 10px;
+  }
+
+  &:nth-child(3) {
+    background: url("../img/icons/feature-3.svg") no-repeat left;
+  }
+}

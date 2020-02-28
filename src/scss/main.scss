@@ -1,12 +1,9 @@
 @import "./partials/fonts";
 @import "./partials/colors";
 @import "./partials/presets";
-//contacts
-@import "./partials/_tablet/header-contacts";
-@import "./partials//_mobile/header-contacts";
+
 //mobile
-@import "./partials/_mobile/header";
-//tablet
-@import "./partials/_tablet/header";
-//desktop
-@import "./partials/_desktop/header";
+@import "./partials/mobile/socials";
+@import "./partials/mobile/body";
+@import "./partials/mobile/header";
+@import "./partials/mobile/main";
