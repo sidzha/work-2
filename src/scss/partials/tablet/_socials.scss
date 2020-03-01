@@ -1,0 +1,141 @@
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.btn-wrapper .contacts-container {
+  position: absolute;
+  left: -5px;
+  top: -2px;
+  background: $bg-color-1;
+  width: 52px;
+  height: 50px;
+  border-radius: 100px;
+  box-shadow: 4px 4px 12px #d2d2e227;
+  opacity: 0;
+  transition-property: left, width, opacity;
+  transition-duration: 0.35s, 0.35s, 0.05s;
+  transition-delay: 0s, 0s, 0.35s;
+  transition-timing-function: linear;
+  z-index: 9;
+}
+
+.btn-wrapper .contacts-container.active {
+  width: 415px;
+  left: -368px;
+  opacity: 1;
+  transition-duration: 0.35s, 0.35s, 0s;
+  transition-delay: 0s, 0s, 0s;
+}
+
+.btn-wrapper .contacts-item {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 32px;
+  width: 32px;
+  margin: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition-property: right;
+  transition-timing-function: linear;
+}
+
+.btn-wrapper .contacts-item:nth-child(1) {
+  transition-duration: 0.05s;
+  transition-delay: 0.35s;
+}
+
+.btn-wrapper .contacts-item:nth-child(2) {
+  transition-duration: 0.1s;
+  transition-delay: 0.3s;
+}
+
+.btn-wrapper .contacts-item:nth-child(3) {
+  transition-duration: 0.15s;
+  transition-delay: 0.25s;
+}
+
+.btn-wrapper .contacts-item:nth-child(4) {
+  transition-duration: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.btn-wrapper .contacts-item:nth-child(5) {
+  transition-duration: 0.25s;
+  transition-delay: 0.15s;
+}
+
+.btn-wrapper .contacts-item:nth-child(6) {
+  transition-duration: 0.3s;
+  transition-delay: 0.1s;
+}
+
+.btn-wrapper .contacts-item:nth-child(7) {
+  transition-duration: 0.35s;
+  transition-delay: 0.05s;
+}
+
+.btn-wrapper .contacts-item:nth-child(8) {
+  transition-duration: 0.4s;
+  transition-delay: 0;
+}
+
+.btn-wrapper .contacts-item.active:nth-child(1) {
+  right: 45px;
+  transition-delay: 0s;
+}
+
+.btn-wrapper .contacts-item.active:nth-child(2) {
+  right: 90px;
+  transition-delay: 0s;
+}
+
+.btn-wrapper .contacts-item.active:nth-child(3) {
+  right: 135px;
+  transition-delay: 0s;
+}
+
+.btn-wrapper .contacts-item.active:nth-child(4) {
+  right: 180px;
+  transition-delay: 0s;
+}
+
+.btn-wrapper .contacts-item.active:nth-child(5) {
+  right: 225px;
+  transition-delay: 0s;
+}
+
+.btn-wrapper .contacts-item.active:nth-child(6) {
+  right: 270px;
+  transition-delay: 0s;
+}
+
+.btn-wrapper .contacts-item.active:nth-child(7) {
+  right: 315px;
+  transition-delay: 0s;
+}
+
+.btn-wrapper .contacts-item.active:nth-child(8) {
+  right: 360px;
+  transition-delay: 0s;
+}
+
+.btn-contacts {
+  z-index: 10;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+
+  &:focus {
+    outline: none;
+  }
+}

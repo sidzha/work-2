@@ -2,5 +2,27 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 50px;
+  max-width: 1440px;
+  margin: 0 auto 2rem;
+  padding: 2rem 2rem 0 2rem;
+
+  & svg {
+    transition: fill 0.4s ease-in-out;
+    &:hover {
+      fill: #93d9fb;
+    }
+  }
+}
+
+.btn-wrapper {
+  & svg {
+    display: block;
+    margin: auto;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .page-header {
+    margin-bottom: 3rem;
+  }
 }

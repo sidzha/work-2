@@ -1,9 +1,20 @@
-@import "./partials/fonts";
-@import "./partials/colors";
-@import "./partials/presets";
+@import './partials/fonts';
+@import './partials/colors';
+@import './partials/presets';
+
+//socials
+@import './partials/tablet/socials';
+@import './partials/mobile/socials';
 
 //mobile
-@import "./partials/mobile/socials";
-@import "./partials/mobile/body";
-@import "./partials/mobile/header";
-@import "./partials/mobile/main";
+@import './partials/mobile/socials';
+@import './partials/mobile/header';
+@import './partials/mobile/main';
+
+//tablet
+@import './partials/tablet/header';
+@import './partials/tablet/main';
+
+//desktop
+@import './partials/desktop/header';
+@import './partials/desktop/main';

@@ -1,0 +1,105 @@
+@media only screen and (min-width: 1280px) {
+  .page-main {
+    grid-template-columns: 505px 695px;
+    grid-template-rows: 150px 80px auto;
+
+    &::after {
+      width: 320px;
+      height: 515px;
+      top: 0;
+      margin-left: -275px;
+    }
+  }
+  .page-main__header {
+    padding-left: 3rem;
+  }
+
+  .page-main__header,
+  .page-main__subheader {
+    font-size: 4rem;
+    line-height: 6rem;
+  }
+  .page-main__subheader {
+    & span {
+      font-size: 6.6rem;
+    }
+  }
+
+  .page-main__img {
+    height: 515px;
+  }
+
+  .page-main__futures {
+    width: 540px;
+    font-size: 1.8rem;
+    line-height: 3.5rem;
+
+    & li {
+      &:nth-child(1),
+      &:nth-child(2),
+      &:nth-child(3) {
+        background-size: 50px 60px;
+      }
+    }
+  }
+
+  .page-main__stores {
+    justify-content: center;
+  }
+
+  .page-main__stores--item {
+    width: 104px;
+    height: 34px;
+
+    &:nth-child(1) {
+      margin-left: 10rem;
+    }
+  }
+
+  .page-main__btn {
+    justify-self: left;
+
+    width: 398px;
+    line-height: 58px;
+    font-size: 2.4rem;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .page-main {
+    grid-template-rows: 150px 80px 250px auto;
+    grid-template-areas:
+      'img header'
+      'img subheader'
+      'img list'
+      'img btn'
+      'stores .';
+
+    &::after {
+      width: 370px;
+      height: 625px;
+      top: 0;
+      margin-left: -335px;
+    }
+  }
+
+  .page-main__header,
+  .page-main__subheader,
+  .page-main__futures {
+    padding-left: 0;
+  }
+
+  .page-main__img {
+    height: 625px;
+  }
+
+  .page-main__stores--item {
+    width: 125px;
+    height: 40px;
+
+    &:nth-child(1) {
+      margin-left: -1rem;
+    }
+  }
+}

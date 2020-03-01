@@ -1,0 +1,13 @@
+@media only screen and (min-width: 768px) {
+  .page-header {
+    padding: 4rem 4rem 0 4rem;
+    margin-bottom: 10rem;
+  }
+
+  .page-header__logo {
+    & svg {
+      width: 250px;
+      height: 90px;
+    }
+  }
+}
