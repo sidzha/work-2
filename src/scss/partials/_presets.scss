@@ -10,12 +10,12 @@ html {
 }
 
 body {
-  height: 100vh;
-  font-family: 'Plumb', Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  font-family: "Plumb", Arial, Helvetica, sans-serif;
   letter-spacing: 0.05em;
   color: $text-white;
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
-    url('../img/bg/bg-main.png') no-repeat center;
+    url("../img/bg/bg-main.png") no-repeat center;
   background-size: cover;
   margin: 0;
 }
